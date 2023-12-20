@@ -1,0 +1,59 @@
+.BookItem {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.checked-out {
+  background-color: #ffcccc; /* 대출 중인 도서 배경색 */
+}
+
+.title_col {
+  flex: 1;
+  margin-left: 10px;
+  
+}
+
+.btn_col {
+  margin-left: 10px;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+.btn_col:hover {
+  color: black;
+  background-color: #b1ffc3;
+  border: 1px solid #000000;
+}
+
+.btn_del {
+  margin-left: 10px;
+  cursor: pointer;
+  padding: 5px 10px;
+  background-color: #ff5656;
+}
+.btn_del:hover {
+  color: black;
+  background-color: #fcb6b6;
+  border: 1px solid #000000;
+}
+
+.date_col {
+  margin-right: 10px;
+}
+
+.BookItem-status {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.BookItem-status.checked-out {
+  color: red; /* 대출 중일 때의 색상 */
+}
+
+.BookItem-status.available {
+  color: green; /* 대출 가능할 때의 색상 */
+}

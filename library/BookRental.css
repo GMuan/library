@@ -1,0 +1,53 @@
+.BookRental {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #000000;
+  border-radius: 8px;
+}
+
+.BookRental h3 {
+  color: #333;
+}
+
+.BookRental p {
+  color: #555;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 15px;
+}
+
+strong {
+  color: #007bff;
+}
+
+button {
+  background-color: #28a745;
+  color: #fff;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.return {
+  background-color: #000000;
+  color: #fff;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.return:hover {
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid #000000;
+}
+
+button:hover {
+  background-color: #218838;
+}
